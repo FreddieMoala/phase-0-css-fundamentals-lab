@@ -1,5 +1,46 @@
 body {
+  width: auto;
+  height: 0;
+  /* margin-left: 500px; */
+}
+
+header {
+  text-align: center;
+}
+
+header a {
+  padding: 0px 10px 0px 10px;
+  background-color: grey;
+}
+
+figcaption {
+  text-align: center;
+  font-size: 16px;
+}
+
+#featured-property {
   width: 100%;
-  height: 100%;
-  margin: 0;
+  /* background-color: aqua; */
+  position: relative;
+}
+
+#featured-property img {
+  display: block;
+  margin: auto;
+  width: 900px;
+}
+
+#featured-property p {
+  display: block;
+  margin: auto;
+  font-size: 20px;
+  width: 800px;
+  text-align: center;
+}
+
+#details div{
+  float: left;
+  background-color: red;
+  text-align: center;
+  width: 25%;
 }
